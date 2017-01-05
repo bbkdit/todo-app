@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
     <title>Laravel ToDo App</title>
 
-    <!-- Load Bootstrap CSS -->
+    
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -12,7 +13,7 @@
         <button id="btn-add" name="btn-add" class="btn btn-primary btn-xs">Add New Task</button>
         <div>
 
-            <!-- Table-to-load-the-data Part -->
+          
             <table class="table">
                 <thead>
                     <tr>
@@ -38,8 +39,7 @@
                     @endforeach
                 </tbody>
             </table>
-            <!-- End of Table-to-load-the-data Part -->
-            <!-- Modal (Pop up when detail button clicked) -->
+           
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">

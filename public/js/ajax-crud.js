@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
     var url = "/todo/public/tasks";
@@ -75,7 +76,7 @@ $(document).ready(function(){
         if (state == "update"){
             type = "PUT"; //for updating existing resource
             my_url += '/' + task_id;
-        }
+         }
 
         console.log(formData);
 
